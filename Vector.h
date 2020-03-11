@@ -113,7 +113,7 @@ public:
 		mCapacity = tCount;
 	}
 
-	int Capacity() const // O(1), Returns the number off elements that the vector can hold.
+	int Capacity() const // O(1), Returns the number of elements that the vector can hold.
 	{
 		return mCapacity;
 	}
