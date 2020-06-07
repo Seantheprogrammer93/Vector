@@ -2,7 +2,7 @@
 template<typename T>
 class Vector
 {
-	T* mData; // Arbitrary to be inserted into the vector.
+	T* mData; // Arbitrary data to be inserted into the vector.
 	int mSize; // Size of the Vector.
 	int mCapacity; // How many elements the vector can hold.
 	T mUndefined;
